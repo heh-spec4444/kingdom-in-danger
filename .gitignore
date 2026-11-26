@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+.pytest_cache/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Temporary screenshots in repository root (preserve assets/**/*.png and docs/*.png)
+/*.png
+
+# Runtime local high scores
+records.json
+
+# Agent / IDE / OS metadata
+.agent/
+GEMINI.md
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
